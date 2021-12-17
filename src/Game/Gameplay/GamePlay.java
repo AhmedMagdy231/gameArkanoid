@@ -20,7 +20,7 @@ public class GamePlay extends JPanel  {
 
 
     private static boolean isPlaying = false;
-    private static int numberOfLevel = 1;
+    private static int numberOfLevel = 6;
     private static boolean finishGame = false;
     private static PowerUPs power = new PowerUPs();
     private static Timer timer = new Timer(5,actions);
